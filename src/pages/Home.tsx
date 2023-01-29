@@ -1,5 +1,7 @@
+import Layout from "../components/common/layout/Layout";
+
 function Home() {
-  return <div>hi</div>;
+  return <Layout children={<div>hi</div>} />;
 }
 
 export default Home;
